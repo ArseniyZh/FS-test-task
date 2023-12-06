@@ -1,0 +1,18 @@
+/* DynamicTable.css */
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .nested-object {
+    padding-left: 20px; /* Отступ для вложенных объектов */
+  }
+  
