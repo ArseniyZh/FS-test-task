@@ -1,4 +1,4 @@
-export const BASE_URL = "http://127.0.0.1:8000/"
+export const BASE_URL = "http://85.143.172.98:8000/"
 export const API = "api/"
 export const USERS = "users/"
 export const CATS = "cats/"
