@@ -1,10 +1,12 @@
 FROM node:14
 
-WORKDIR /app/frontend
+WORKDIR /src
 
 COPY package*.json ./
 RUN npm install
 
 COPY . .
 
-CMD ["npm", "start"]
+RUN npm install -g serve
+RUN npm run build
+CMD ["serve", "-s", "build"]

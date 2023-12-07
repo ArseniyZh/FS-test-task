@@ -1,0 +1,2 @@
+app: daphne app.asgi:application
+web: npm start
