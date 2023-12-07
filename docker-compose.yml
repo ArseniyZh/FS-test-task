@@ -7,15 +7,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    networks:
-      - backend
 
   react:
     build: frontend/cat-app
     ports:
       - "3000:3000"
-    networks:
-      - backend
-
-networks:
-  backend:
+      -
